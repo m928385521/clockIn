@@ -1,0 +1,106 @@
+@charset "UTF-8";
+/**
+ * 这里是uni-app内置的常用样式变量
+ *
+ * uni-app 官方扩展插件及插件市场（https://ext.dcloud.net.cn）上很多三方插件均使用了这些样式变量
+ * 如果你是插件开发者，建议你使用scss预处理，并在插件代码中直接使用这些变量（无需 import 这个文件），方便用户通过搭积木的方式开发整体风格一致的App
+ *
+ */
+/**
+ * 如果你是App开发者（插件使用者），你可以通过修改这些变量来定制自己的插件主题，实现自定义主题功能
+ *
+ * 如果你的项目同样使用了scss预处理，你也可以直接在你的 scss 代码中使用如下变量，同时无需 import 这个文件
+ */
+/* 颜色变量 */
+/* 行为相关颜色 */
+/* 文字基本颜色 */
+/* 背景颜色 */
+/* 边框颜色 */
+/* 尺寸变量 */
+/* 文字尺寸 */
+/* 图片尺寸 */
+/* Border Radius */
+/* 水平间距 */
+/* 垂直间距 */
+/* 透明度 */
+/* 文章场景相关 */
+.content {
+  width: 100vm;
+  height: 100vh;
+  padding-top: 20rpx;
+  background-color: #eeeeee;
+}
+.content .userInfo {
+  display: flex;
+  width: 90vw;
+  height: 140rpx;
+  margin: auto;
+  border-radius: 25rpx;
+  align-items: center;
+  background-color: #fff;
+}
+.content .userInfo .userInfo_userIcon {
+  width: 41px;
+  height: 41px;
+  margin-left: 20rpx;
+  border-radius: 5rpx;
+}
+.content .userInfo .userInfo_userName {
+  margin-left: 20rpx;
+}
+.content .clock {
+  width: 90vw;
+  margin: 40rpx auto;
+  padding: 40rpx 0;
+  border-radius: 25rpx;
+  background-color: #fff;
+}
+.content .clock .clock_status {
+  display: flex;
+  height: 100rpx;
+  justify-content: space-around;
+}
+.content .clock .clock_status .clock_work {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50vw;
+  border-radius: 20rpx;
+  background-color: #ededed;
+}
+.content .clock .clock_status .clock_work .clock_work_bottom {
+  display: flex;
+  align-items: center;
+  margin-left: 30rpx;
+  color: #757575;
+}
+.content .clock .clock_status .clock_work .clock_work_bottom .clock_work_img {
+  width: 20rpx;
+  height: 20rpx;
+}
+.content .clock .clock_clock {
+  display: flex;
+  margin: auto;
+  margin-top: 50rpx;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  width: 400rpx;
+  height: 400rpx;
+  background: linear-gradient(to bottom right, #3f90f9, #266ad6);
+  border-radius: 200rpx;
+  box-shadow: 0px 10px 21px 0px #cee9ff;
+}
+.content .clock .clock_clock .clock_clock_title {
+  font-size: 24px;
+  color: #fff;
+}
+.content .clock .clock_clock .clock_clock_time {
+  color: rgba(255, 255, 255, 0.5);
+}
+.content .clock .clock_clock_on {
+  background: linear-gradient(to bottom right, #b9b9b9, #949494);
+  box-shadow: 0px 10px 21px 0px #bebebe;
+}
+
